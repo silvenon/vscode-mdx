@@ -13,7 +13,7 @@
   "contributes": {
     "languages": [{
       "id": "mdx",
-      "aliases": ["Markdown React", "mdx"],
+      "aliases": ["Markdown React", "MDX", "mdx"],
       "extensions": ["mdx"],
       "configuration": "./language-configuration.json"
     }],
