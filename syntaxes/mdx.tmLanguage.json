@@ -9,8 +9,17 @@
     "jsx": {
       "patterns": [
         {
-          "begin": "^(?=((import|export)\\b|<[A-Z]))",
+          "begin": "^(?=(import|export)\\b)",
           "while": "^(?!\\s*$)",
+          "contentName": "source.js.jsx",
+          "patterns": [
+            { "include": "source.js.jsx" }
+          ]
+        },
+        {
+          "begin": "^(?=<([a-z]|[A-Z]))",
+          "while": "^(?!\\s*$)",
+          "contentName": "source.js.jsx",
           "patterns": [
             { "include": "source.js.jsx" }
           ]
