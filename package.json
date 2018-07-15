@@ -1,5 +1,5 @@
 {
-  "name": "language-mdx",
+  "name": "mdx",
   "displayName": "MDX Language",
   "description": "Provides syntax highlighting and bracket matching for MDX (JSX in Markdown) files.",
   "version": "0.0.1",
