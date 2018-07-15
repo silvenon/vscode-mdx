@@ -3,7 +3,7 @@
   "name": "Markdown React",
   "patterns": [
     { "include": "#jsx" },
-    { "include": "text.html.markdown" }
+    { "include": "#markdown" }
   ],
   "repository": {
     "jsx": {
@@ -24,6 +24,11 @@
             { "include": "source.js.jsx" }
           ]
         }
+      ]
+    },
+    "markdown": {
+      "patterns": [
+        { "include": "text.html.markdown" }
       ]
     }
   },
