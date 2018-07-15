@@ -2,7 +2,7 @@
   "name": "mdx",
   "displayName": "MDX",
   "description": "Provides syntax highlighting and bracket matching for MDX (JSX in Markdown) files.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "silvenon",
   "repository": {
     "type": "git",
