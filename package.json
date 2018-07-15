@@ -19,7 +19,7 @@
     }],
     "grammars": [{
       "language": "mdx",
-      "scopeName": "source.mdx",
+      "scopeName": "text.html.markdown.jsx",
       "path": "./syntaxes/mdx.tmLanguage.json"
     }]
   }
