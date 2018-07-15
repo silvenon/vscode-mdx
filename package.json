@@ -4,6 +4,11 @@
   "description": "Provides syntax highlighting and bracket matching for MDX (JSX in Markdown) files.",
   "version": "0.0.4",
   "publisher": "silvenon",
+  "license": "SEE LICENSE IN license",
+  "bugs": {
+    "url": "https://github.com/silvenon/vscode-mdx/issues",
+    "email": "matija.marohnic@gmail.com"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/silvenon/vscode-mdx.git"
