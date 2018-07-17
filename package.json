@@ -14,7 +14,7 @@
     "url": "https://github.com/silvenon/vscode-mdx.git"
   },
   "engines": {
-    "vscode": "^1.25.0"
+    "vscode": "*"
   },
   "categories": [
     "Programming Languages"
