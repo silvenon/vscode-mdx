@@ -1,6 +1,10 @@
 # MDX for Visual Studio Code
 
-This extension adds language support for [MDX](https://github.com/mdx-js/mdx).
+Adds language support for [MDX](https://github.com/mdx-js/mdx).
+
+## Installation
+
+You can install this extension from the [Marketplace](https://marketplace.visualstudio.com/items?itemName=silvenon.mdx).
 
 ## What about `.md` files?
 
