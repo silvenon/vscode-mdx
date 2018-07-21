@@ -8,7 +8,7 @@ You can install this extension from the [Marketplace](https://marketplace.visual
 
 ## What about `.md` files?
 
-The extension automatically recognizes `.mdx` files. If MDX files in your project end with `.md` instead, you can tell VS Code to treat them as MDX by adding the following to your workspace settings:
+By default the MDX language is applied only to `.mdx` files. If MDX files in your project end with `.md`, you can tell VS Code that by adding the following to your workspace settings:
 
 ```json
 "files.associations": {
