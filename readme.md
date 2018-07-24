@@ -15,3 +15,13 @@ By default the MDX language is applied only to `.mdx` files. If MDX files in you
   "*.md": "mdx"
 },
 ```
+
+## Auto-close tags
+
+If you want VS Code to automatically close tags while you type, you can install [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag) and configure it to also include the language `mdx`:
+
+```json
+"auto-close-tag.activationOnLanguage": [
+  ...
+  "mdx"
+]
