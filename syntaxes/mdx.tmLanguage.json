@@ -8,25 +8,38 @@
   "repository": {
     "jsx": {
       "patterns": [
-        {
-          "begin": "^(?=(import|export)\\b)",
-          "while": "^(?!\\s*$)",
-          "contentName": "source.js.jsx",
+        { "include": "#jsx-module" },
+        { "include": "#jsx-tag" }
+      ],
+      "repository": {
+        "jsx-module": {
           "patterns": [
-            { "include": "source.js.jsx" }
+            {
+              "begin": "^(?=(import|export)\\b)",
+              "while": "^(?!\\s*$)",
+              "contentName": "source.js.jsx",
+              "patterns": [
+                { "include": "source.js.jsx" }
+              ]
+            }
           ]
         },
-        {
-          "begin": "^(?=<([a-z]|[A-Z]))",
-          "while": "^(?!\\s*$)",
-          "contentName": "source.js.jsx",
+        "jsx-tag": {
           "patterns": [
-            { "include": "source.js.jsx" }
+            {
+              "begin": "^(?=<([a-z]|[A-Z]))",
+              "while": "^(?!\\s*$)",
+              "contentName": "source.js.jsx",
+              "patterns": [
+                { "include": "source.js.jsx" }
+              ]
+            }
           ]
         }
-      ]
+      }
     },
     "markdown": {
+      "contentName": "text.html.markdown",
       "patterns": [
         { "include": "text.html.markdown" }
       ]
