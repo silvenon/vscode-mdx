@@ -22,6 +22,10 @@ If you want VS Code to automatically close tags while you type, you can install 
 
 ```json
 "auto-close-tag.activationOnLanguage": [
-  ...
+  "xml",
+  "php",
+  "...",
   "mdx"
 ]
+```
+
