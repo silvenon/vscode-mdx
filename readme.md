@@ -16,6 +16,23 @@ By default the MDX language is applied only to `.mdx` files. If MDX files in you
 },
 ```
 
+Note that once you do that, any settings associated to `[markdown]` will stop applying to `.md` files. For example, if you had something like this in your settings:
+
+```json
+"[markdown]": {
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 100
+},
+```
+
+You probably want to replace it by this: 
+```json
+"[mdx]": {
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 100
+},
+```
+
 ## Auto-close tags
 
 If you want VS Code to automatically close tags while you type, you can install [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag) and configure it to also include the language `mdx`:
