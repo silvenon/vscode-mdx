@@ -1,4 +1,8 @@
-# MDX for Visual Studio Code
+# MDX for Visual Studio Code (deprecated)
+
+_**Note**: This extension has been deprecated in favor of the [official MDX extension](https://marketplace.visualstudio.com/items?itemName=unifiedjs.vscode-mdx)._
+
+---
 
 Adds language support for [MDX](https://github.com/mdx-js/mdx).
 
