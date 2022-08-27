@@ -9,7 +9,8 @@
     "jsx": {
       "patterns": [
         { "include": "#jsx-module" },
-        { "include": "#jsx-tag" }
+        { "include": "#jsx-tag" },
+        { "include": "#jsx-evaluated-code"}
       ],
       "repository": {
         "jsx-module": {
@@ -29,6 +30,18 @@
             {
               "begin": "^(?=<([a-z]|[A-Z]))",
               "end": "(?<=>)",
+              "contentName": "source.js.jsx",
+              "patterns": [
+                { "include": "source.js.jsx" }
+              ]
+            }
+          ]
+        },
+        "jsx-evaluated-code": {
+          "patterns": [
+            {
+              "begin": "(?!```$){",
+              "end": "}",
               "contentName": "source.js.jsx",
               "patterns": [
                 { "include": "source.js.jsx" }

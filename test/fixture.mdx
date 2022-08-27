@@ -1,4 +1,5 @@
 import Component from './component'
+import {anImportedFunction} from './someFile'
 
 export const meta = {
   title: 'Blog Post',
@@ -23,3 +24,5 @@ Lorem ipsum dolor sit amet, consectetur adipiscing **elit**. Ut ac lobortis <b>v
 ## Subtitle
 
 Lorem ipsum dolor sit _amet_, consectetur adipiscing elit. Ut ac lobortis velit.
+
+{anImportedFunction('Here is some JS code', 2) ?? 'text'}
